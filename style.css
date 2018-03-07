@@ -1,0 +1,72 @@
+body {
+    font-size: 14px;
+}
+
+#mainGridId {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 1px solid #A3A3A3;
+}
+
+.headerLabel, .rowLabel {
+    font-weight: 700;
+    text-align: center;
+    background: #DDD;
+    cursor: pointer;
+}
+
+tr {
+    line-height: 2rem;
+}
+
+td {
+    height: 100%;
+    width: 100px;
+}
+
+#menuId, #copyPasteMenuId {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    max-width: 200px;
+    position: absolute;
+    z-index: 999;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #D3D3D3;
+}
+
+#menuId .menuItem, #copyPasteMenuId .menuItem2 {
+    padding: 0.6rem;
+    border: 1px solid #DDD;
+}
+
+#menuId .menuItem:hover {
+    background: #DDD;
+}
+
+.cell {
+    padding: 0 0.4rem 0 0.4rem;
+}
+
+.ascSort .headerText:after {
+    content: ' \2B07';
+}
+.descSort .headerText:after {
+    content: ' \2B06';
+}
+
+.pasteDisabled {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+#exportCSVId {
+    width: 100%;
+}
